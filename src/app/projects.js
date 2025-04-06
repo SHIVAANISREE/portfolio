@@ -180,8 +180,8 @@ const Projects = () => {
                 <span className="text-teal-300 font-semibold">
                   Tailwind CSS
                 </span>
-                , replicating the same features as the Flutter app for web
-                users.
+                , that allows users to interact with an AI assistant through
+                natural conversation and image generation features. users.
               </p>
 
               <h4 className="mt-4 text-lg font-semibold text-cyan-300">
@@ -208,6 +208,63 @@ const Projects = () => {
                 </li>
                 <li>
                   🎨 <b>Stable Diffusion v2</b> - Image Generation
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Spotify Data Engineering Project */}
+          <div className="px-4">
+            <div className="bg-gray-800 p-6 rounded-xl shadow-lg h-[500px] flex flex-col justify-between">
+              <h3 className="text-2xl font-bold text-teal-400">
+                Spotify Track Analysis - Data Engineering
+              </h3>
+              <p className="mt-3 text-gray-300">
+                Collected and processed Spotify track data using{" "}
+                <span className="text-teal-300 font-semibold">PySpark</span> and{" "}
+                <span className="text-teal-300 font-semibold">FastAPI</span> for
+                backend analysis. Built a dynamic web app to display artist-wise
+                top tracks using{" "}
+                <span className="text-teal-300 font-semibold">Next.js</span>.
+              </p>
+
+              <h4 className="mt-4 text-lg font-semibold text-cyan-300">
+                Technologies Used
+              </h4>
+              <ul className="list-disc list-inside text-gray-400">
+                <li>
+                  🔥 <b>PySpark</b> - ETL & Transformation
+                </li>
+                <li>
+                  ⚡ <b>FastAPI</b> - Backend API Development
+                </li>
+                <li>
+                  📡 <b>Spotify API</b> - Track & Artist Data Collection
+                </li>
+                <li>
+                  🌐 <b>Next.js</b> - Interactive Frontend
+                </li>
+                <li>
+                  🎨 <b>Tailwind CSS</b> - UI Styling
+                </li>
+              </ul>
+
+              <h4 className="mt-4 text-lg font-semibold text-cyan-300">
+                Key Features
+              </h4>
+              <ul className="list-disc list-inside text-gray-400">
+                <li>
+                  ✅ <b>Data Collection:</b> Using Spotify Client ID & Secret key for API
+                  access
+                </li>
+                <li>
+                  ✅ <b>ETL:</b> Cleaned and structured track data using PySpark
+                </li>
+                <li>
+                  ✅ <b>Analysis:</b> Popularity ranking & artist-wise filtering
+                </li>
+                <li>
+                  ✅ <b>Web App:</b> User can view and play top songs by artist
                 </li>
               </ul>
             </div>
